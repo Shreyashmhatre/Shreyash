@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() 
+{
+    string username;
+    string password;
+
+    cout << "Enter User name: ";
+    getline(cin, username);
+
+    cout << "Enter the password <any 8 characters>: ";
+    cin >> password;
+
+    cout << "********" << endl;
+
+    cout << "\nYour password is: ";
+    cout << password << endl;
+
+    return 0;
+}
